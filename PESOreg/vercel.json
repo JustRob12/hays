@@ -1,0 +1,10 @@
+{
+    "version": 2,
+    "builds": [
+      { "src": "html/index.html", "use": "@vercel/static" }
+    ],
+    "routes": [
+      { "src": "/(.*)", "dest": "html/registration.html" }
+    ]
+  }
+  
